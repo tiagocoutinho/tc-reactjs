@@ -6,4 +6,4 @@ function set_title(title) {
   $(".title").html(title);
 }
 
-set_title("Welcome to TC React JS V3");
+set_title("Welcome to TC React JS V4");
