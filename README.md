@@ -1,8 +1,17 @@
-npm install -S webpack jquery lodash
-npm install --save-dev nodemon
+## Developers
+
+build:
+    npm run build
+
+build monitor:
+    npm run watch
+
+run (using build monitor):
+    npm run server
+
+### Personal notes
 
 * webpack to bundle everything
-* nodemon to restart webpack every time a JS file changes
 * mockaroo.com to generate some mock data
 * lodash.js to intepret mock data
-* react.js
+* react.js (developers: might want to install react-dev-tools (chrome, firefox))

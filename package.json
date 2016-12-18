@@ -4,7 +4,10 @@
   "description": "Tiago Coutinho React JS examples",
   "main": "webpack.config.js",
   "scripts": {
-    "babel-node": "babel-node --presets=/*a*/ --ignore='foo|bar|baz'"
+    "babel-node": "babel-node --presets=/*a*/ --ignore='foo|bar|baz'",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "server": "webpack-dev-server --content-base . --inline --hot"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,8 @@
   "dependencies": {
     "jquery": "^3.1.1",
     "lodash": "^4.17.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
     "webpack": "^1.14.0"
   },
   "devDependencies": {
@@ -30,10 +35,13 @@
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-plugin-lodash": "^3.2.11",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-preset-env": "^1.1.4",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
     "lodash-webpack-plugin": "^0.10.6",
-    "nodemon": "^1.11.0"
+    "webpack-dev-server": "^1.16.2"
   }
 }
