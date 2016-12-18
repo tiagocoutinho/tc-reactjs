@@ -1,0 +1,38 @@
+{
+  "name": "tc-reactjs",
+  "version": "0.1.0",
+  "description": "Tiago Coutinho React JS examples",
+  "main": "webpack.config.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=/*a*/ --ignore='foo|bar|baz'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagocoutinho/tc-reactjs.git"
+  },
+  "keywords": [
+    "react",
+    "workspace"
+  ],
+  "author": "Tiago Coutinho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiagocoutinho/tc-reactjs/issues"
+  },
+  "homepage": "https://github.com/tiagocoutinho/tc-reactjs#readme",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.2",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-preset-env": "^1.1.4",
+    "babel-preset-react": "^6.16.0",
+    "lodash-webpack-plugin": "^0.10.6",
+    "nodemon": "^1.11.0"
+  }
+}
